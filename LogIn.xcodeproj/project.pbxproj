@@ -11,7 +11,6 @@
 		52FE7C7929ADE5B0001D77C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE7C7829ADE5B0001D77C5 /* ContentView.swift */; };
 		52FE7C7B29ADE5B3001D77C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FE7C7A29ADE5B3001D77C5 /* Assets.xcassets */; };
 		52FE7C7E29ADE5B3001D77C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FE7C7D29ADE5B3001D77C5 /* Preview Assets.xcassets */; };
-		52FE7C8529ADE6E5001D77C5 /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE7C8429ADE6E5001D77C5 /* LogInPage.swift */; };
 		52FE7C8829ADEC22001D77C5 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE7C8729ADEC22001D77C5 /* WelcomeScreenView.swift */; };
 		52FE7C8A29ADF4E7001D77C5 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE7C8929ADF4E7001D77C5 /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		52FE7C7829ADE5B0001D77C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52FE7C7A29ADE5B3001D77C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FE7C7D29ADE5B3001D77C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		52FE7C8429ADE6E5001D77C5 /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
 		52FE7C8729ADEC22001D77C5 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		52FE7C8929ADF4E7001D77C5 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +58,6 @@
 				52FE7C7629ADE5B0001D77C5 /* LogInApp.swift */,
 				52FE7C7829ADE5B0001D77C5 /* ContentView.swift */,
 				52FE7C8629ADEC0E001D77C5 /* Screens */,
-				52FE7C8429ADE6E5001D77C5 /* LogInPage.swift */,
 				52FE7C7A29ADE5B3001D77C5 /* Assets.xcassets */,
 				52FE7C7C29ADE5B3001D77C5 /* Preview Content */,
 			);
@@ -157,7 +154,6 @@
 				52FE7C7929ADE5B0001D77C5 /* ContentView.swift in Sources */,
 				52FE7C8829ADEC22001D77C5 /* WelcomeScreenView.swift in Sources */,
 				52FE7C8A29ADF4E7001D77C5 /* SignInScreenView.swift in Sources */,
-				52FE7C8529ADE6E5001D77C5 /* LogInPage.swift in Sources */,
 				52FE7C7729ADE5B0001D77C5 /* LogInApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
