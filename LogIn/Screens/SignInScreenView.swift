@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+extension View {
+    func dismissKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}
+
 struct SignInScreenView: View {
     @State private var email : String = ""  //
     var body: some View {
@@ -47,6 +53,10 @@ struct SignInScreenView: View {
                 Spacer()
             }
             .padding()
+            
+            .onTapGesture {
+                self.dismissKeyboard()
+            }
         }
     }
 }
