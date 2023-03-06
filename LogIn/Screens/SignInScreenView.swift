@@ -53,10 +53,9 @@ struct SignInScreenView: View {
                 Spacer()
             }
             .padding()
-            
-            .onTapGesture {
-                self.dismissKeyboard()
             }
+        .onTapGesture {
+            self.dismissKeyboard()
         }
     }
 }
